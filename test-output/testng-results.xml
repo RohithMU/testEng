@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Registerd]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Logged In]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Logged In]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Logged Out]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-26T13:41:55 IST" name="Default suite" finished-at="2024-06-26T13:42:22 IST" duration-ms="26801">
+    <groups>
+    </groups>
+    <test started-at="2024-06-26T13:41:55 IST" name="Default test" finished-at="2024-06-26T13:42:22 IST" duration-ms="26801">
+      <class name="Third.ThirdScript">
+        <test-method is-config="true" signature="Launchbrowser()[pri:0, instance:Third.ThirdScript@614ca7df]" started-at="2024-06-26T13:41:55 IST" name="Launchbrowser" finished-at="2024-06-26T13:42:01 IST" duration-ms="6118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchbrowser -->
+        <test-method signature="register()[pri:1, instance:Third.ThirdScript@614ca7df]" started-at="2024-06-26T13:42:01 IST" name="register" finished-at="2024-06-26T13:42:04 IST" duration-ms="2980" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Registerd]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:Third.ThirdScript@614ca7df]" started-at="2024-06-26T13:42:04 IST" name="closebrowser" finished-at="2024-06-26T13:42:04 IST" duration-ms="321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=register status=SUCCESS method=ThirdScript.register()[pri:1, instance:Third.ThirdScript@614ca7df] output=Successfully Registerd]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="Launchbrowser()[pri:0, instance:Third.ThirdScript@614ca7df]" started-at="2024-06-26T13:42:04 IST" name="Launchbrowser" finished-at="2024-06-26T13:42:10 IST" duration-ms="5262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchbrowser -->
+        <test-method signature="login()[pri:2, instance:Third.ThirdScript@614ca7df]" started-at="2024-06-26T13:42:10 IST" name="login" finished-at="2024-06-26T13:42:12 IST" duration-ms="2586" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Logged In]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:Third.ThirdScript@614ca7df]" started-at="2024-06-26T13:42:12 IST" name="closebrowser" finished-at="2024-06-26T13:42:13 IST" duration-ms="309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=ThirdScript.login()[pri:2, instance:Third.ThirdScript@614ca7df] output=Successfully Logged In]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="Launchbrowser()[pri:0, instance:Third.ThirdScript@614ca7df]" started-at="2024-06-26T13:42:13 IST" name="Launchbrowser" finished-at="2024-06-26T13:42:17 IST" duration-ms="4841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchbrowser -->
+        <test-method signature="logout()[pri:3, instance:Third.ThirdScript@614ca7df]" started-at="2024-06-26T13:42:17 IST" name="logout" finished-at="2024-06-26T13:42:21 IST" duration-ms="3973" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Logged In]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Logged Out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:Third.ThirdScript@614ca7df]" started-at="2024-06-26T13:42:21 IST" name="closebrowser" finished-at="2024-06-26T13:42:22 IST" duration-ms="339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logout status=SUCCESS method=ThirdScript.logout()[pri:3, instance:Third.ThirdScript@614ca7df] output=Successfully Logged In]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Third.ThirdScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
